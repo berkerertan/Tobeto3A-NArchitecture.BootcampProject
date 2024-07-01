@@ -1,140 +1,142 @@
 <p align="center">
-  <a href="https://github.com/banudik/Tobeto3A-NArchitecture.BootcampProject/graphs/contributors"><img src="https://img.shields.io/github/contributors/banudik/Tobeto3A-NArchitecture.BootcampProject.svg?style=for-the-badge"></a>
-  <a href="https://github.com/banudik/Tobeto3A-NArchitecture.BootcampProject/network/members"><img src="https://img.shields.io/github/forks/banudik/Tobeto3A-NArchitecture.BootcampProject.svg?style=for-the-badge"></a>
-  <a href="https://github.com/banudik/Tobeto3A-NArchitecture.BootcampProject/stargazers"><img src="https://img.shields.io/github/stars/banudik/Tobeto3A-NArchitecture.BootcampProject.svg?style=for-the-badge"></a>
-  <a href="https://github.com/banudik/Tobeto3A-NArchitecture.BootcampProject/issues"><img src="https://img.shields.io/github/issues/banudik/Tobeto3A-NArchitecture.BootcampProject.svg?style=for-the-badge"></a>
-  <a href="https://github.com/banudik/Tobeto3A-NArchitecture.BootcampProject/blob/master/LICENSE"><img src="https://img.shields.io/github/license/banudik/Tobeto3A-NArchitecture.BootcampProject.svg?style=for-the-badge"></a>
+  <a href="https://github.com/berkerertan/Tobeto3A-NArchitecture.BootcampProject/graphs/contributors"><img src="https://img.shields.io/github/contributors/berkerertan/Tobeto3A-NArchitecture.BootcampProject.svg?style=for-the-badge"></a>
+  <a href="https://github.com/berkerertan/Tobeto3A-NArchitecture.BootcampProject/network/members"><img src="https://img.shields.io/github/forks/berkerertan/Tobeto3A-NArchitecture.BootcampProject.svg?style=for-the-badge"></a>
+  <a href="https://github.com/berkerertan/Tobeto3A-NArchitecture.BootcampProject/stargazers"><img src="https://img.shields.io/github/stars/berkerertan/Tobeto3A-NArchitecture.BootcampProject.svg?style=for-the-badge"></a>
+  <a href="https://github.com/berkerertan/Tobeto3A-NArchitecture.BootcampProject/issues"><img src="https://img.shields.io/github/issues/berkerertan/Tobeto3A-NArchitecture.BootcampProject.svg?style=for-the-badge"></a>
+  <a href="https://github.com/berkerertan/Tobeto3A-NArchitecture.BootcampProject/blob/master/LICENSE"><img src="https://img.shields.io/github/license/berkerertan/Tobeto3A-NArchitecture.BootcampProject.svg?style=for-the-badge"></a>
 </p><br />
 
-# CodeStorm Educational Platform Backend API (.NET)
+# CodeStorm Eğitim Platformu Backend API (.NET)
 
-## Project Description
+## Proje Açıklaması
+Bu proje, CodeStorm Eğitim Platformu'nun backend API'sini sağlamaktadır. Clean Architecture prensiplerine dayanarak geliştirilmiş ve nArchitectureGen kullanılarak tasarlanmıştır. Proje, yüksek performanslı ve ölçeklenebilir bir yapı sunar.
 
-This project provides the backend API for the CodeStorm Educational Platform. It is developed based on Clean Architecture principles and designed using nArchitectureGen. The project offers a high-performance and scalable structure.
+## Özellikler
 
-## Features
 <table>
   <tr>
-    <td>- Clean Architecture</td>
-    <td>- CQRS (Command Query Responsibility Segregation)</td>
+    <td>-Clean Architecture</td>
+    <td>-CQRS (Command Query Responsibility Segregation)</td>
   </tr>
   <tr>
-    <td>- Advanced Repository Pattern</td>
-    <td>- Role-Based Access Control (Instructor, Student, Admin)</td>
+    <td>-Gelişmiş Repository Pattern</td>
+    <td>-Rol Bazlı Erişim Kontrolü(Eğitmen, Öğrenci, Admin)</td>
   </tr>
   <tr>
-    <td>- Dynamic Query</td>
-    <td>- Pagination</td>
+    <td>-Dynamic Query</td>
+    <td>-Pagination</td>
   </tr>
   <tr>
-    <td>- OTP (One-Time Password)</td>
-    <td>- Authentication with JWT</td>
+    <td>-OTP (One-Time Password)</td>
+    <td>-JWT ile Kimlik Doğrulama</td>
   </tr>
   <tr>
-    <td>- Logging with Serilog</td>
-    <td>- PDF Generation (Certificate)</td>
+    <td>-Serilog ile Loglama</td>
+    <td>-Pdf Oluşturma (Sertifika)</td>
   </tr>
   <tr>
-    <td>- Cloudinary Media Service</td>
-    <td>- Global Exception Handling</td>
+    <td>-Couldinary Medya Servisi</td>
+    <td>-Global Exception Handling</td>
   </tr>
   <tr>
-    <td>- MsSQL</td>
-    <td>- Refresh Token and Token Renewal</td>
+    <td>-MsSQL</td>
+    <td>-Refresh Token ve Token Yenileme</td>
   </tr>
   <tr>
-    <td>- Token Revocation</td>
-    <td>- Mail Service</td>
+    <td>-Token İptali (Revoke Token)</td>
+    <td>-Mail Service</td>
   </tr>
    <tr>
-    <td>- Mediatr</td>
+    <td>-Mediatr</td>
     <td></td>
   </tr>
 </table>
 
-## Architecture
-This project adopts Clean Architecture and CQRS (Command Query Responsibility Segregation) principles. This architectural structure ensures the project is modular, testable, and maintainable. Mediatr is used in the implementation of the CQRS pattern.
+## Mimari Yapı
+Bu proje, Clean Architecture ve CQRS (Command Query Responsibility Segregation) prensiplerini benimsemektedir. Bu mimari yapı, projenin modüler, test edilebilir ve sürdürülebilir olmasını sağlar. CQRS pattern uygulamasında Mediatr kullanılmıştır.
 
-## File Structure
+### Dosya Yapısı
+
 <p float="left">
-  <img src="https://i.imgur.com/YyxiUPq.png" alt="Project Image 1" width="500"/>
+  <img src="https://i.imgur.com/YyxiUPq.png" alt="Proje Görseli 1" width="500"/>
 </p>
 
-## 💻 About nArchitectureGen
+## 💻 nArchitectureGen Hakkında
 <p align="center">
   <a href="https://github.com/kodlamaio-projects/nArchitecture"><img src="https://user-images.githubusercontent.com/53148314/194872467-827dc967-acee-4bca-88a2-59ed5695bebf.png" height="75"></a>
   <h3 align="center">nArchitectureGen
 </h3>
-Developed inspired by Clean Architecture, nArchitecture is a monolithic project showcasing advanced development techniques. The project includes Clean Architecture, CQRS, Advanced Repository, Dynamic Querying, JWT, OTP, Google and Microsoft Authentication, Role-Based Management, Distributed Caching (Redis), Logging (Serilog), Elastic Search, Code Generator, and more.
+  
+Clean Architecture'dan ilham alınarak geliştirilen nArchitecture, ileri seviye geliştirme tekniklerini sergileyen bir monolit projedir. Proje, Clean Architecture, CQRS, Gelişmiş Repository, Dinamik Sorgulama, JWT, OTP, Google ve Microsoft Doğrulama, Rol Tabanlı Yönetim, Dağıtık Önbellekleme (Redis), Logging (Serilog), Elastic Search, Code Generator ve daha fazlasını içermektedir.
 
-## Usage
-API Documentation
-You can use Swagger UI for all API endpoints and details used in the project.
+### Kullanım
+#### API Dökümantasyonu
+Projede kullanılan tüm API endpoint'leri ve detayları için Swagger UI kullanabilirsiniz.
 
-## Features
-Clean Architecture
-This project applies Clean Architecture principles to provide a modular, testable, and maintainable structure. It minimizes dependencies between layers and makes business logic independent of the UI, database, or other external dependencies.
+## Özellikler
+### Clean Architecture
+Bu proje, modüler, test edilebilir ve sürdürülebilir bir yapı sağlamak için Clean Architecture prensiplerini uygular. Katmanlar arasındaki bağımlılıkları minimize eder ve iş mantığını UI, veritabanı veya diğer dış bağımlılıklardan bağımsız hale getirir.
 
-## CQRS (Command Query Responsibility Segregation)
-CQRS separates commands (data modification operations) and queries (data reading operations). This improves performance optimization and better data integrity.
+### CQRS (Command Query Responsibility Segregation)
+CQRS, komutların (veri değiştirme işlemleri) ve sorguların (veri okuma işlemleri) ayrılmasını sağlar. Bu, performans optimizasyonu ve daha iyi veri bütünlüğü sağlar.
 
-## Authentication with JWT
+## JWT ile Kimlik Doğrulama
 <p float="left">
-  <img src="https://i.imgur.com/fMvXXyO.png" alt="Project Image 1" width="370"/>
+  <img src="https://i.imgur.com/fMvXXyO.png" alt="Proje Görseli 1" width="370"/>
 </p>
-Authentication is performed using JWT (JSON Web Token). This offers a secure and stateless authentication method. The JWT Payload decode part is as shown in the image.
+JWT (JSON Web Token) kullanarak kullanıcıların kimliklerini doğrulama işlemleri yapılır. Bu, güvenli ve stateless bir kimlik doğrulama yöntemi sunar. Decode JWT Payload kısmı görseldeki gibidir.
 
 ## OTP (One-Time Password)
-We provide an extra layer of security by using one-time passwords to verify user identities.
+Kullanıcıların kimliklerini doğrulamak için tek seferlik şifreler kullanılarak ekstra bir güvenlik katmanı sağlıyoruz.
 
-## Logging with Serilog
+## Serilog ile Loglama
 <p float="left">
-  <img src="https://i.imgur.com/GSNMuIF.png" alt="Project Image 1" width="240"/>
+  <img src="https://i.imgur.com/GSNMuIF.png" alt="Proje Görseli 1" width="240"/>
 </p>
-Using Serilog, logs in the application are configured and recorded. This is very useful for debugging and monitoring the application. In the current demo, log records are stored as text files, and the infrastructure for MongoDB usage is available.
+Serilog kullanarak, uygulamada oluşan loglar yapılandırılır ve kayıt edilir. Bu, hata ayıklama ve uygulama izleme açısından oldukça faydalıdır. Mevcut demoda log kayıtları txt dosyası olarak saklanır, MongoDb kullanımı için altyapı mevcuttur.
 
 ## Dynamic Query
-Dynamic querying capabilities allow flexible and customizable queries according to the needs of the user or the application.
+Dinamik sorgulama yetenekleri, kullanıcıların veya uygulamanın ihtiyaçlarına göre esnek ve özelleştirilebilir sorgular oluşturmasına olanak tanır.
 
 ## Global Exception Handling
-Global exception handling manages errors centrally by capturing them at a single point, regardless of where they occur in the application. This provides more consistent error messages and a better user experience.
+Global hata yönetimi, uygulamanın herhangi bir yerinde oluşabilecek hataları merkezi bir noktada yakalayarak yönetmeyi sağlar. Bu, daha tutarlı hata mesajları ve daha iyi bir kullanıcı deneyimi sunar.
 
-## Refresh Token and Token Renewal
+## Refresh Token ve Token Yenileme
 <p float="left">
-  <img src="https://i.imgur.com/rgxDMz5.png" alt="Project Image 1" width="650"/>
+  <img src="https://i.imgur.com/rgxDMz5.png" alt="Proje Görseli 1" width="650"/>
 </p>
-Using refresh tokens, we extend user session durations, so users do not need to log in again. When a user logs out or in case of a security breach, the token is revoked, blocking access. RefreshToken is created as HttpOnly Cookie when the user logs in. HttpOnly type allows this cookie to be carried only with http requests.
+Refresh token kullanarak, kullanıcıların oturum sürelerini uzatıyoruz. Böylece kullanıcılar tekrar giriş yapmak zorunda kalmıyor. Kullanıcı çıkış yaptığında veya güvenlik ihlali durumunda, token iptal edilerek erişim engellenir. RefreshToken HttpOnly Cookie yapıda kullanıcı giriş yaptığında oluşturulur. HttpOnly türü bu cookie'nin sadece http istekleri beraberinde taşınmasına olanak sağlar.
 
-## Token Revocation
-Token revocation allows users to manually end their sessions or block access in case of security breaches. This is an important feature that enhances application security.
+## Token İptali (Revoke Token)
+Token iptali, kullanıcıların oturumlarını manuel olarak sonlandırmalarını veya güvenlik ihlallerinde erişimi engellemeyi sağlar. Bu, uygulamanın güvenliğini artıran önemli bir özelliktir.
 
-## PDF Generation (Certificate)
+## PDF Oluşturma (Sertifika)
 <p float="left">
-  <img src="https://i.imgur.com/XVNCUgM.png" alt="Project Image 1" width="300"/>
-  <img src="https://i.imgur.com/uriLTyr.png" alt="Project Image 2" width="200"/>
+  <img src="https://i.imgur.com/XVNCUgM.png" alt="Proje Görseli 1" width="300"/>
+  <img src="https://i.imgur.com/uriLTyr.png" alt="Proje Görseli 2" width="200"/>
 </p>
-In our project, we use the iTextSharp library to generate certificates when users complete their training. This library allows us to dynamically create and edit PDF files. It enables users to create documents like course completion certificates in PDF format. This provides users with a tangible indicator of achievement and enhances the platform's professionalism.
+Projemizde, kullanıcıların eğitimlerini tamamladıklarında sertifika üretmek için iTextSharp kütüphanesini kullanıyoruz. Bu kütüphane, PDF dosyalarını dinamik olarak oluşturup düzenlememize olanak tanır. Kullanıcıların kurs tamamlama sertifikaları gibi belgeleri PDF formatında oluşturmasını sağlar. Bu, kullanıcıya somut bir başarı göstergesi sunar ve platformun profesyonelliğini artırır.
 
 ## Mail Service
 <p float="left">
-  <img src="https://i.imgur.com/YI98iYV.png" alt="Project Image 1" width="370"/>
+  <img src="https://i.imgur.com/YI98iYV.png" alt="Proje Görseli 1" width="370"/>
 </p>
-We use the MailKit library and Gmail's SMTP server to send emails to users. This structure provides a reliable and flexible solution for performing actions such as email verification and password reset. Emails are sent for various operations (password reset, account verification, two-factor authentication), enhancing user experience and security. Mail bodies are stored as HTML files, and when a mail is sent, the appropriate link or one-time code field in the file is filled out and sent.
+Kullanıcılara e-posta göndermek için MailKit kütüphanesini ve Gmail'in SMTP sunucusunu kullanıyoruz. Bu yapı, e-posta doğrulama, şifre sıfırlama gibi işlemleri gerçekleştirmek için güvenilir ve esnek bir çözüm sunar. Kullanıcılarla iletişim kurmanın ve çeşitli işlemler (şifre sıfırlama, hesap doğrulama, iki faktörlü kimlik doğrulama) için e-posta gönderilir. Bu, kullanıcı deneyimini ve güvenliğini artırır. Mail gövdeleri Html dosyası olarak saklanır, mail gönderilme durumunda isteğe uygun dosya içerisindeki link veya tek seferlik kod alanı doldurulup gönderiyoruz.
 
-## Database Schema and Request-Response Body Examples
+## Veritabanı Şeması ve Request-Response Body Örnekleri
 <table>
   <!-- row 1 -->
   <tr>
     <td colspan="3" align="center">
       <img src="https://i.imgur.com/WFJIROU.png" alt="default-header" width="900"/><br>
-      <code>Database Diagram</code>
+      <code>Veritabanı Diagramı</code>
     </td>
   </tr>
   <!-- row 2 -->
   <tr>
     <td align="center">
       <img src="https://i.imgur.com/qIPlDzW.png" alt="cloud-db-logo" width="300"/><br>
-      <code>Response on Successful Login</code>
+      <code>Başarılı Login Durumunda Response</code>
     </td>
     <td align="center">
       <img src="https://i.imgur.com/0x5Ibhi.png" alt="cloud-db-logo" width="300"/><br>
@@ -142,18 +144,18 @@ We use the MailKit library and Gmail's SMTP server to send emails to users. This
     </td>
     <td align="center">
       <img src="https://i.imgur.com/V9acTLn.png" alt="gradient-markdown-logo" width="300"/><br>
-      <code>Generated Certificates</code>
+      <code>Oluşturulan Sertifikalar</code>
     </td>
   </tr>
   <!-- row 3 -->
   <tr>
     <td align="center">
       <img src="https://i.imgur.com/LaE9tu3.png" alt="custom-logo" width="300"/><br>
-      <code>Response on Error</code>
+      <code>Hata Durumunda Response</code>
     </td>
     <td align="center">
       <img src="https://i.imgur.com/NB66lcs.png" alt="skills-light" width="300"/><br>
-      <code>Student Registration Schema</code>
+      <code>Öğrenci Kayıt Şeması</code>
     </td>
     <td align="center">
       <img src="https://i.imgur.com/PT8pBDT.png" alt="gradient-markdown-logo" width="300"/><br>
@@ -164,11 +166,11 @@ We use the MailKit library and Gmail's SMTP server to send emails to users. This
   <!-- row 4 -->
     <td align="center">
       <img src="https://i.imgur.com/ubNu8Gl.png" alt="readme-ai-header" width="300"/><br>
-      <code>Training Creation Schema</code>
+      <code>Eğitim Oluşturma Şeması</code>
     </td>
     <td align="center">
       <img src="https://i.imgur.com/D30SOJG.png" alt="black-logo" width="300"/><br>
-      <code>Certificate Creation Schema</code>
+      <code>Sertifika Oluşturma Şeması</code>
     </td>
     <td align="center">
       <img src="https://i.imgur.com/tyQXhD9.png" alt="gradient-markdown-logo" width="300"/><br>
@@ -177,16 +179,17 @@ We use the MailKit library and Gmail's SMTP server to send emails to users. This
   </tr>
 </table>
 
-## Contribution Guide
-If you want to contribute to this project, please follow the steps below:
+### Katkıda Bulunma Rehberi
 
-- Fork the repository.
-- Create a new branch: git checkout -b my-new-feature
-- Commit your changes: git commit -am 'Add some feature'
-- Push to the branch: git push origin my-new-feature
-- Create a Pull Request.
+Bu projeye katkıda bulunmak istiyorsanız, lütfen aşağıdaki adımları izleyin:
 
-## Contact
-If you have any questions or feedback about this project, please contact us here.
+- Depoyu fork edin.
+- Yeni bir dal (branch) oluşturun: git checkout -b my-new-feature
+- Yaptığınız değişiklikleri commit edin: git commit -am 'Add some feature'
+- Dalınıza (branch) push edin: git push origin my-new-feature
+- Bir Pull Request oluşturun.
 
-# Thank you
+### İletişim
+Bu proje hakkında herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen buradan bizimle iletişime geçin.
+
+## Teşekkürler
